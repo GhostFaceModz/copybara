@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Copium Capybara ($COPYBARA) — Totally fine. Probably.</title>
+<meta name="description" content="Copium Capybara ($COPYBARA): a meme coin on Solana for everyone who is totally fine. No utility, no promises.">
+<meta property="og:title" content="Copium Capybara ($COPYBARA)">
+<meta property="og:description" content="Totally fine. Probably. A meme coin on Solana. No utility, no promises.">
+<meta property="og:image" content="https://ghostfacemodz.github.io/copybara/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script>
+/* ====================================================================
+   EDIT HERE ONLY: single config block. Empty string = "coming soon".
+   ==================================================================== */
+window.COPYBARA_CONFIG = {
+  contractAddress: "",            // e.g. "AbC...pump" once launched
+  pumpFunUrl:      "",            // e.g. "https://pump.fun/coin/<CA>"
+  xUrl:            "",            // e.g. "https://x.com/copybarasol"
+  telegramUrl:     "",            // e.g. "https://t.me/copybara"
+  devWallet:       "3fwFa8w49iVHqQddx4LTE56H1c1M6sfLVg3hvvMPLmU3",
+  devBuy:          "Small or zero dev buy. Exact amount will be posted here at launch."
+};
+</script>
+<style>
+:root{--ink:#1b1530;--mint:#2fb58a;--mint2:#c9f7e0;--sun:#ffd54a;--bark:#a8693a;--card:#ffffff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Nunito,system-ui,sans-serif;color:var(--ink);background:var(--mint2);line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;background:rgba(201,247,224,.9);backdrop-filter:blur(6px);border-bottom:3px solid var(--ink)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;gap:10px;align-items:center;font-family:'Luckiest Guy';font-size:24px;text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:10px;border:3px solid var(--ink)}
+nav .links a{font-weight:900;margin-left:16px;text-decoration:none}
+@media(max-width:640px){nav .links{display:none}}
+.hero{background:radial-gradient(circle at 50% 35%,#e6fff3 0,var(--mint) 75%);border-bottom:3px solid var(--ink);text-align:center;padding:48px 0 56px}
+.hero img{width:min(360px,80vw);border-radius:32px;border:5px solid var(--ink);box-shadow:10px 10px 0 var(--ink);animation:bob 4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-10px) rotate(-1deg)}}
+h1,h2{font-family:'Luckiest Guy',cursive;letter-spacing:1px;margin:.4em 0 .2em}
+h1{font-size:clamp(40px,8vw,76px);color:var(--sun);-webkit-text-stroke:3px var(--ink);text-shadow:5px 5px 0 var(--ink)}
+.tag{font-size:clamp(20px,3.5vw,28px);font-weight:900;margin:0 0 22px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.btn{display:inline-block;padding:12px 22px;border:3px solid var(--ink);border-radius:14px;background:var(--sun);font-weight:900;text-decoration:none;box-shadow:4px 4px 0 var(--ink);transition:transform .1s,box-shadow .1s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.btn.alt{background:#fff}.btn.off{opacity:.55;pointer-events:none}
+.ca{margin:26px auto 0;max-width:640px;background:#fff;border:3px solid var(--ink);border-radius:14px;padding:10px 12px;display:flex;gap:10px;align-items:center;box-shadow:4px 4px 0 var(--ink)}
+.ca b{white-space:nowrap}.ca code{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:15px;text-align:left}
+.ca button{border:3px solid var(--ink);border-radius:10px;background:var(--mint2);font-weight:900;padding:6px 12px;cursor:pointer}
+section{padding:56px 0}
+h2{font-size:clamp(32px,5vw,46px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{background:var(--card);border:3px solid var(--ink);border-radius:18px;padding:20px;box-shadow:6px 6px 0 var(--ink)}
+.card h3{margin:.1em 0 .3em;font-size:20px}
+.step{font-family:'Luckiest Guy';font-size:34px;color:var(--mint);-webkit-text-stroke:1.5px var(--ink)}
+.note{background:#fff7d1;border:3px dashed var(--ink);border-radius:16px;padding:16px 18px;font-weight:700}
+.mono{font-family:ui-monospace,Menlo,monospace;word-break:break-all;font-size:14px}
+footer{background:var(--ink);color:#e9e6ff;padding:28px 0;font-size:14px;text-align:center}
+footer a{color:var(--sun)}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="#"><img src="favicon.png" alt="">$COPYBARA</a>
+  <div class="links"><a href="#about">About</a><a href="#buy">How to buy</a><a href="#transparency">Transparency</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <img src="logo.png" alt="Copium Capybara mascot breathing from a COPIUM tank">
+  <h1>Copium Capybara</h1>
+  <p class="tag">Totally fine. Probably.</p>
+  <div class="btns">
+    <a class="btn" data-link="pumpFunUrl" href="#">Buy on pump.fun</a>
+    <a class="btn alt" data-link="xUrl" href="#">X / Twitter</a>
+    <a class="btn alt" data-link="telegramUrl" href="#">Telegram</a>
+  </div>
+  <div class="ca"><b>CA:</b><code id="ca">coming soon</code><button id="copy" type="button">Copy</button></div>
+</div></header>
+
+<main>
+<section id="about"><div class="wrap">
+  <h2>What is this?</h2>
+  <p><b>$COPYBARA</b> is a meme coin on Solana starring a very calm capybara with a steady supply of copium. Chart red? He breathes in. Wallet down 80%? Deep breath. Everything is fine.</p>
+  <div class="grid">
+    <div class="card"><h3>🫧 Just a meme</h3>No utility, no roadmap, no team promises. It's a capybara with an oxygen tank.</div>
+    <div class="card"><h3>🧘 Vibes only</h3>For anyone who has ever said "it's fine, I'm in it for the tech" while it was not fine.</div>
+    <div class="card"><h3>📉 Honest risk</h3>Meme coins are extremely volatile and most go to zero. Only use money you're fully OK losing.</div>
+  </div>
+  <p class="note" style="margin-top:22px">Not financial advice. $COPYBARA has no intrinsic value or expectation of financial return. Nobody here will DM you first. Admins will never ask for your seed phrase.</p>
+</div></section>
+
+<section id="buy" style="background:#fff;border-top:3px solid var(--ink);border-bottom:3px solid var(--ink)"><div class="wrap">
+  <h2>How to buy</h2>
+  <div class="grid">
+    <div class="card"><div class="step">1</div><h3>Get Phantom</h3>Install the Phantom wallet app or browser extension from <a href="https://phantom.com" rel="noopener">phantom.com</a>. Save your recovery phrase offline and never share it.</div>
+    <div class="card"><div class="step">2</div><h3>Add SOL</h3>Buy SOL inside Phantom or send it from an exchange to your Phantom address.</div>
+    <div class="card"><div class="step">3</div><h3>Open pump.fun</h3>Go to the official $COPYBARA page via the button above (only trust the CA shown on this site) and connect Phantom.</div>
+    <div class="card"><div class="step">4</div><h3>Swap, then breathe</h3>Enter an amount of SOL, confirm in Phantom, inhale copium. Double-check the contract address first.</div>
+  </div>
+</div></section>
+
+<section id="transparency"><div class="wrap">
+  <h2>Transparency</h2>
+  <div class="grid">
+    <div class="card"><h3>Dev wallet</h3><p class="mono"><a id="devwallet" href="#" rel="noopener"></a></p>Public on Solscan. Anyone can check it.</div>
+    <div class="card"><h3>Dev buy</h3><p id="devbuy"></p></div>
+    <div class="card"><h3>Fair launch</h3>Launched on pump.fun's bonding curve: no presale, no team allocation, no private sale.</div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>$COPYBARA</b> · Totally fine. Probably.</p>
+  <p>A community meme coin. Not affiliated with any company or person. Not financial advice. Crypto is risky; you can lose everything you put in.</p>
+</div></footer>
+
+<script>
+(function(){
+  var c = window.COPYBARA_CONFIG;
+  document.querySelectorAll('[data-link]').forEach(function(a){
+    var u = c[a.dataset.link];
+    if (u) { a.href = u; a.target = "_blank"; a.rel = "noopener"; }
+    else { a.classList.add('off'); a.textContent += ' (soon)'; a.removeAttribute('href'); }
+  });
+  var ca = document.getElementById('ca'), btn = document.getElementById('copy');
+  if (c.contractAddress) { ca.textContent = c.contractAddress; }
+  else { btn.disabled = true; btn.style.opacity = .5; }
+  btn.onclick = function(){ navigator.clipboard.writeText(c.contractAddress).then(function(){ btn.textContent='Copied!'; setTimeout(function(){btn.textContent='Copy'},1500); }); };
+  var dw = document.getElementById('devwallet');
+  dw.textContent = c.devWallet; dw.href = 'https://solscan.io/account/' + c.devWallet;
+  document.getElementById('devbuy').textContent = c.devBuy;
+})();
+</script>
+</body>
+</html>
